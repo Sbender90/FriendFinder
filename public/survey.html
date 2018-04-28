@@ -1,0 +1,391 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="css" href="./assets/style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <form class="container">
+    <a href="/"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Home!</button></a>
+    <h2> Survey Questions </h2>
+    <hr>
+    <h3>
+      <strong>About You</strong>
+    </h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" name="name" class="form-control" required>
+    <h4> Link to Photo Image (Required) </h4>
+    <input type="text" id="photo" name="photo" class="form-control" required>
+    <hr>
+    <h3>
+      <strong>Do you like to dance?</strong>
+    </h3>
+    <h4> </h4>
+    <select class="chosen-select"  name= "q1" id="q1" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q1_chosen"></div>
+
+    <h3>
+      <strong>Do you like to read (actual books)?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q2" id="q2" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q2_chosen"></div>
+
+    <h3>
+      <strong>Do you let people go infront of you at the grocerie store when they only have one item and you have a cart full?</strong>
+    </h3>
+    <h4> </h4>
+
+    <select class="chosen-select"  name="q3" id="q3" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q3_chosen"></div>
+
+    <h3>
+      <strong>Rate this statement, "Trump is a logical thinker".
+      </strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name="q4" id="q4" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q4_chosen"></div>
+
+    <h3>
+      <strong>Do you water your grass durring a heat wave?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name="q5" id="q5" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q5_chosen"></div>
+
+
+    <h3>
+      <strong>Do you allow for the zipper maneuver to be used when merging onto the highway?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q6" id="q6" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q6_chosen"></div>
+
+        <h3>
+      <strong>How much do you love jQuery?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q7" id="q7" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q7_chosen"></div>
+
+        <h3>
+      <strong>How much do you like music</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q8" id="q8" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q8_chosen"></div>
+
+        <h3>
+      <strong>Do you think solar is the way of the future?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q9" id="q9" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q9_chosen"></div>
+
+        <h3>
+    <strong>Do you think Hockey is the greatest game on Earth?</strong>
+    </h3>
+    <h4> </h4>
+
+     <select class="chosen-select"  name= "q10" id="q10" style="">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <div class="chosen-container chosen-container-single" style="width: 155px;" title id="q10_chosen"></div>
+    <br>
+    <br>
+  <button type="submit" data-toggle="modal" data-target="#results-modal" class="btn btn-primary btn-lg btn-block" id="submit">
+    <i class="glyphicon glyphicon-check"></i>
+  </button>
+  <hr>
+  
+  </form>
+
+<div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">X
+        </button>
+        <h2 class="modal-title">
+          <strong> Best Match</strong>
+        </h2>
+         </div>
+      <div id="modal-body">
+<!--         <h2 id = "match-name"></h2>
+        <img id= "match-img"></div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+<footer class="footer">
+	<div class="container">
+		<p><a href="https://github.com/Sbender90/Friend_Finder">GitHub Repo</a></p>
+	</div>
+</footer>
+
+
+
+
+<script type="text/javascript">
+
+var userData;
+
+function validateForm() {
+  var isValid = true;
+  $(".form-control").each(function() {
+    if ($(this).val() === ""){
+      isValid = false;
+    }
+  });
+
+  $(".chosen-select").each(function() {
+    if ($(this).val() === ""){
+      isValid = false;
+    }
+  });
+  return isValid;
+
+console.log(this)
+}
+
+$(".container").one("submit", function(event) {
+event.preventDefault();
+
+
+if (validateForm()) {
+var tempData =  $(".container").serializeArray()
+
+console.log(tempData)
+
+userData ={
+  name: tempData[0].value,
+  photo: tempData[1].value,
+  score:[]
+};
+for(var i = 2; i < tempData.length; i++){
+   userData.score.push(tempData[i].value)
+}
+
+
+};
+console.log(userData)
+fetch("/api/friends", {
+  method: "POST",
+  headers: {
+    "content-type": "application/json"
+  },
+  body: JSON.stringify(userData)
+})
+.then( function(response){
+  console.log(response)
+  return response.json()
+  // console.log(response)
+ })
+.then(function(data){
+  console.log(data)
+  var modal = $("#modal-body")
+  var name = $("<span>")
+  name.text(data.match.name)
+  var picture = $("<img>")
+  picture.attr("src", data.match.photo)
+  picture.css({
+    "height": "150px",
+    "width" : "150px"
+  })
+  var score = $("<p>")
+  score.text(data.match.score) 
+  modal.append(name, picture, score)
+  console.log(data.newUser)
+  name = $("<span>")
+  name.text(data.newUser.name)
+  picture = $("<img>")
+  picture.attr("src", data.newUser.photo)
+  picture.css({
+    "height": "150px",
+    "width" : "150px"
+  })
+  score = $("<p>")
+  score.text(data.newUser.score) 
+  modal.append(name, picture, score)
+ })
+
+// $.post("/api/friends", JSON.stringify(userData), 
+//   function(data){
+  
+//   console.log(data)
+
+  // $("#match-name").text(data.name);
+  // $("#match-img").attr("src", data.photo);
+ 
+
+  // });
+
+
+});
+
+function compareScores (userScore, res){
+  var leastDiff;
+  var bestFriendIndex = 0;
+
+  for (var i = 0; i < friendsData.length; i++){
+    console.log(friendsData[i])
+    var friendScore = friendsData[i].score
+    var totalDiff = 0;
+    for(var j = 0; j <friendScore.length; j++){
+
+      var scoreA = parseInt(friendScore[j])
+      var scoreB = parseInt(userScore[j])
+      var currentDiff = Math.abs(scoreA - scoreB)
+      
+      totalDiff += currentDiff
+
+    }
+    if(i === 0){
+      console.log("firsttime")
+      leastDiff = totalDiff
+
+    }
+    console.log(leastDiff, totalDiff, "outsideIf") 
+    if(leastDiff > totalDiff){
+      console.log("totaldiff", totalDiff)
+      console.log(leastDiff, "leastDiff")
+      leastDiff = totalDiff
+      bestFriendIndex = i
+      console.log(i, "currentindex")
+      console.log(bestFriendIndex, "bestfriendindex")
+    }
+  }
+  
+}
+  function friendResults() {
+
+    
+    var currentURL = window.location.origin;
+
+
+    $.ajax({ url: currentURL + "/api/friends", method: "GET" })
+    .then(function(friendsData) {
+      console.log("------------------------------------");
+      console.log("URL: " + currentURL + "/api/friends");
+      console.log("------------------------------------");
+
+      console.log(friendsData);
+      console.log("------------------------------------");
+
+        var matchName = $("<h2>");
+        matchName.text(friendsData.name);
+
+        var matchPhoto = $("<img>");
+        matchPhoto.attr("src", friendsData.photo)
+
+        var matchScore = $("<h4>")
+        matchScore.text(friendsData.score)
+
+        $(".modal-body").append(matchName, matchPhoto, matchScore)
+
+     
+
+    });
+  }
+
+  friendResults()
+
+
+</script>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,27 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sbender90/Friend_Finder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sbender90/Friend_Finder"
+  },
+  "homepage": "https://github.com/Sbender90/Friend_Finder/#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
